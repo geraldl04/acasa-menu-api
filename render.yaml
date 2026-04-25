@@ -1,9 +1,0 @@
-services:
-  - type: web
-    name: acasa-menu-api
-    runtime: java
-    buildCommand: ./mvnw clean package -DskipTests
-    startCommand: java -jar target/acasa-menu-api-0.0.1-SNAPSHOT.jar
-    envVars:
-      - key: JAVA_VERSION
-        value: 21
