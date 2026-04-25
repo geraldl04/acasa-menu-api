@@ -40,8 +40,8 @@ app:
     api-secret: ${CLOUDINARY_API_SECRET}
 
   admin:
-    username: ${APP_ADMIN_USERNAME:admin}
-    password: ${APP_ADMIN_PASSWORD:admin123}
+    username: ${APP_ADMIN_USERNAME}
+    password: ${APP_ADMIN_PASSWORD}
 
 management:
   endpoints:
